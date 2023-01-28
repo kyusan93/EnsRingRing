@@ -1,4 +1,4 @@
-package com.ict2207.ict2207_ensringring;
+package com.ict2207.ensringring;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.ict2207.ict2207_ensringring", appContext.getPackageName());
+        assertEquals("com.ict2207.ensringring", appContext.getPackageName());
     }
 }

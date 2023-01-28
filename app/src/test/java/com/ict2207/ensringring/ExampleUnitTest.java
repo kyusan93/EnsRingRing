@@ -1,4 +1,4 @@
-package com.ict2207.ict2207_ensringring;
+package com.ict2207.ensringring;
 
 import org.junit.Test;
 

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ict2207.ict2207_ensringring'
+    namespace 'com.ict2207.ensringring'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.ict2207.ict2207_ensringring"
+        applicationId "com.ict2207.ensringring"
         minSdk 19
         targetSdk 32
         versionCode 1
@@ -18,7 +18,9 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

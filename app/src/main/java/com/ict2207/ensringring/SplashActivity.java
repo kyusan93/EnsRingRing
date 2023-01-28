@@ -1,4 +1,4 @@
-package com.ict2207.ict2207_ensringring;
+package com.ict2207.ensringring;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -21,7 +21,7 @@ public class SplashActivity extends Activity {
                 startActivity(intent);
                 finish();
             }
-        },3000);
+        },5000);
 
     }
 
